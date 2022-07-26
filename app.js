@@ -5,10 +5,9 @@ const ejs = require('ejs');
 const bodyParser = require('body-parser');
 
 const app = express();
+app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
-
-app.set("view engine", "ejs")
 
 const PORT = process.env.PORT || 4000;
 // Add your own mongoose connection string in .env file
