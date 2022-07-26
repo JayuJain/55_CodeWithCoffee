@@ -1,11 +1,17 @@
 const mongoose = require('mongoose');
 
 const signupSchema = new mongoose.Schema({
-    name: String,
+    username: String,
     email: String,
     password: String,
-    admin: Boolean,
-    student: Boolean
-})
+    admin: {
+        type: Boolean,
+        default: false
+    },
+    student: {
+        type: Boolean,
+        default: false
+    }
+});
 
 module.exports = mongoose.model("Signup", signupSchema);

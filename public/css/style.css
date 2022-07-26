@@ -54,6 +54,7 @@ form {
 form.sign-up-form {
   opacity: 0;
   z-index: 1;
+  /* margin-top: -200px; */
 }
 
 form.sign-in-form {
@@ -148,6 +149,7 @@ form.sign-in-form {
   margin: 10px 0;
   cursor: pointer;
   transition: 0.5s;
+ 
 }
 
 .btn:hover {
@@ -223,7 +225,7 @@ form.sign-in-form {
 }
 
 .btn.transparent {
-  margin: 0;
+  margin: 100px;
   background: none;
   border: 2px solid #fff;
   width: 130px;
@@ -412,4 +414,8 @@ form.sign-in-form {
 
 .check1:hover{
   cursor: pointer;
+}
+
+#sign-up-btn{
+  margin-top: 100px;
 }
