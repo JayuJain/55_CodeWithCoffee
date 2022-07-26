@@ -430,7 +430,7 @@ form.sign-in-form {
     padding-top: 20px;
     display: block;
     text-align: center;
-    background-color: rgb(172, 226, 246);
+    background-color: #7fdae7;
     position:sticky;
     margin-bottom: 50px;
 }
@@ -467,54 +467,58 @@ form.sign-in-form {
 }
 
 .createcont1{
-    height: 500px;
+    height: 650px;
     width: 900px;
-    border:1px solid grey;
+    /* border:1px solid grey; */
     margin-left: 20%;
     border-radius: 20px;
     box-shadow: 2px 2px 6px;
-    
+    margin-bottom: 30px;
 }
 
 .createquestion{
-    margin-top: 50px;
+    margin-top: 20px;
     height:50px;
     border-radius:10px;
-    width:600px;
+    width:400px;
     border:1px solid grey;
     font-size: 20px;
-    
+    padding-left: 20px;
 
 }
 
 .createoption{
-    margin-top: 20px;
+    margin-top: 10px;
     border-radius: 5px;
     height:30px;
     font-size: 20px;
     border:1px solid grey;
+    padding-left: 20px;
 }
 
 .optname{
-    margin-left: 30%;
-    font-size: 30px;
+    /* margin-left: 30%; */
+    font-size: 20px;
 }
 
 .questionname{
-    font-size: 30px;
-    margin-left: 40px;
+    font-size: 25px;
+    /* margin-left: 40px; */
+    float:left;
+    margin-top:30px;
     
 }
 
 .correctans1{
     margin-left: 30px;
-    font-size: 25px;
+    font-size: 20px;
     border-radius: 5px;
     border: 1px solid grey;
+    padding-left: 10px;
 }
 
 .correctans{
-    font-size: 30px;
+    font-size: 20px;
     margin-left: 30px;
 }
 
@@ -524,16 +528,18 @@ form.sign-in-form {
     height: 50px;
     width:100px;
     border-radius: 10px;
-    font-size: 20px;
-    background-color: rgb(172, 226, 246) ;
+    font-size: 15px;
+    background-color: #7fdae7 ;
     border: 0px;
     color: white;
+    margin-top: -25px;
+
 }
 
 .nextbtn1:hover{
     color:rgb(172, 226, 246);
     background-color: white;
-    border:2px solid rgb(172, 226, 246);
+    border:2px solid #7fdae7;
     transition: all 0.7s ease;
 }
 
@@ -541,10 +547,11 @@ form.sign-in-form {
     float: right;
     margin-right: 30px;
     height: 50px;
+    margin-top: -25px;
     width:100px;
     border-radius: 10px;
-    font-size: 20px;
-    background-color: rgb(172, 226, 246) ;
+    font-size: 15px;
+    background-color: #7fdae7 ;
     border: 0px;
     color: white;
 }
@@ -552,11 +559,9 @@ form.sign-in-form {
 .submitbtn1:hover{
     color:rgb(172, 226, 246);
     background-color: white;
-    border:2px solid rgb(172, 226, 246);
+    border:2px solid #7fdae7;
     transition: all 0.7s ease;
 }
-
-
 
 *{
     box-sizing: border-box;
@@ -676,7 +681,7 @@ form.sign-in-form {
     padding-top: 20px;
     display: block;
     text-align: center;
-    background-color: rgb(74, 197, 242);
+    background-color: #7fdae7;
     position:sticky;
 }
 
