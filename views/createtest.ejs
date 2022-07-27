@@ -1,7 +1,7 @@
 <%- include("partials/header") -%>
 
 <div class="createcont1">
-    <form>
+    <form method="POST", action="/createtest">
         <label class="questionname" for="question1">Question 1: </label>
         <input type="text" class="createquestion" name="question1" placeholder="Enter the question"><br><br>
 
@@ -16,11 +16,12 @@
 
         <label class="correctans" for="questionsgiven">Correct Answer: </label>
         <input type="text" class="correctans1" name="option4" placeholder="Mention correct answer">
-
+        
+        <button class="nextbtn1">Next</button>
+        <button class="submitbtn1" type="submit">Submit</button>
     </form>
 
-    <button class="nextbtn1">Next</button>
-    <button class="submitbtn1">Submit</button>
+    
 </div>
 
 
