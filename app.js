@@ -115,28 +115,28 @@ app.post('/createtest', async (req, res) => {
 //     }
 // })
 app.get('/admin', async function (req, res) {
-    const search = async (query) => {
-        const result = await Student.find()
-        return result;
-    }
-    // const search = [
-    //     {
-    //         "name": "Archit",
-    //         "marks": 100
-    //     },
-    //     {
-    //         "name": "Archit",
-    //         "marks": 100
-    //     },
-    //     {
-    //         "name": "Archit",
-    //         "marks": 100
-    //     },
-    //     {
-    //         "name": "Archit",
-    //         "marks": 100
-    //     }
-    // ]
+    // const search = async (query) => {
+    //     const result = await Student.find()
+    //     return result;
+    // }
+    const search = [
+        {
+            "name": "Archit",
+            "marks": 100
+        },
+        {
+            "name": "Jayu",
+            "marks": 90
+        },
+        {
+            "name": "Mrunmayi",
+            "marks": 95
+        },
+        {
+            "name": "Krishna",
+            "marks": 90
+        }
+    ]
     res.render("adminDash", { data: search })
 })
 
